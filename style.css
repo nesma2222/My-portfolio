@@ -349,11 +349,17 @@ footer {
    RESPONSIVE
 =========================== */
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
+
+    html, body {
+    overflow-x: hidden;
+  }
+
   .hero {
     flex-direction: column;
     text-align: center;
     gap: 40px;
+    padding:60px 20px;
   }
 
   nav {
@@ -377,6 +383,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
