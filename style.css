@@ -217,6 +217,48 @@ nav {
     0 0 60px rgba(124,77,255,0.2);
 }
 
+/* ===== ACCORDION ===== */
+
+.accordion {
+  margin-bottom: 25px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+  padding: 15px 20px;
+}
+
+.accordion summary {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  list-style: none;
+  position: relative;
+}
+
+.accordion summary::after {
+  content: "➕";
+  position: absolute;
+  right: 0;
+  transition: 0.3s;
+}
+
+.accordion[open] summary::after {
+  content: "➖";
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion p {
+  margin-top: 15px;
+  color: #cfcfcf;
+}
+
+.accordion .grid {
+  margin-top: 20px;
+}
+
+
 /* ===========================
    CONTACT FORM
 =========================== */
@@ -293,5 +335,6 @@ footer {
       font-size:32px;
    }
 }
+
 
 
