@@ -335,9 +335,9 @@ footer {
    .menu-icon {
       display: block;
       font-size: 32px;
-    cursor: pointer;
-    color: white;
-    margin-left: auto;
+      cursor: pointer;
+      color: white;
+      margin-left: auto;
    }
 
    .nav-links a {
@@ -379,6 +379,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
