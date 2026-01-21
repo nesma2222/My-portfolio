@@ -37,7 +37,7 @@ body {
 nav {
   display: flex;
   /* justify-content: space-between; */
-  align-items: center;
+  align-items: flex-start;
   padding: 20px ;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
@@ -318,9 +318,13 @@ footer {
     html, body {
     overflow-x: hidden;
   }
-   #menu-icon {
-      display:flex;
+   .menu-icon {
+      display:block;
    }
+   #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+      
    .nav-links{
       flex-direction: column;
    }
@@ -353,6 +357,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
