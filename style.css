@@ -326,7 +326,7 @@ footer {
     top: 65px;          /* below navbar */
     right: 0;
     width: 30%;
-    background:#3d235f;
+    background:##211037;
     flex-direction: column;
     text-align:center;
     padding: 25px 0;
@@ -379,6 +379,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
