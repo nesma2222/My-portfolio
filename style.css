@@ -280,5 +280,18 @@ footer {
   .section {
     padding: 50px 30px;
   }
+   .hero-left h1{
+      font-size:40px;
+   }
+   .hero-left p{
+      font-size:22px;
+   }
+   .hero-right{
+      font-size:32px;
+   }
+   .hero-right h2{
+      font-size:32px;
+   }
 }
+
 
