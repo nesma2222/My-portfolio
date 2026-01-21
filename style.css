@@ -318,7 +318,7 @@ footer {
     html, body {
     overflow-x: hidden;
   }
-   #menu-toggle {
+   #menu-icon {
       display:flex;
    }
    .nav-links{
@@ -353,6 +353,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
