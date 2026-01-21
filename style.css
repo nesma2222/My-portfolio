@@ -355,7 +355,7 @@ footer {
     overflow-x: hidden;
   }
    .nav-links{
-      flex-direction:column;
+      flex-direction: column;
    }
 
   .hero {
@@ -386,6 +386,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
