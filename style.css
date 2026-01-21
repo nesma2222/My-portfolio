@@ -318,6 +318,9 @@ footer {
     html, body {
     overflow-x: hidden;
   }
+   #menu-toggle {
+      display:flex;
+   }
    .nav-links{
       flex-direction: column;
    }
@@ -350,6 +353,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
