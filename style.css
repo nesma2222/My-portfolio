@@ -319,7 +319,7 @@ footer {
     overflow-x: hidden;
   }
    .menu-icon {
-      display:block;
+      display: block;
    }
    #menu-toggle:checked ~ .nav-links {
     display: flex;
@@ -357,6 +357,7 @@ footer {
       font-size:32px;
    }
 }
+
 
 
 
