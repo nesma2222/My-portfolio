@@ -320,18 +320,9 @@ footer {
    nav{
       position:relative;
    }
-   
-   .menu-icon {
-      display: block;
-   }
     .nav-links{
-      display:none;
-      
-   }
-
-   #menu-toggle:checked ~ .nav-links {
-    display: flex;
-   position: absolute;
+    display:none;
+    position: absolute;
     top: 65px;          /* below navbar */
     right: 0;
     width: 30%;
@@ -339,7 +330,24 @@ footer {
     flex-direction: column;
     text-align:center;
     padding: 25px 0;
-    z-index: 999;
+    z-index: 999;    
+   }
+   .menu-icon {
+      display: block;
+      font-size: 32px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+   }
+
+   .nav-links a {
+    padding: 15px 0;
+    font-size: 20px;
+    margin: 0;
+  }
+   
+   #menu-toggle:checked ~ .nav-links {
+    display: flex;
   }
       
   
